@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  @apply font-normal;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  overflow: hidden;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+/* Mui styles */
+.MuiSelect-listbox li,
+.MuiSelect-button {
+  @apply justify-end;
+}
+
+.MuiButton-root .MuiButton-startDecorator {
+  @apply justify-center;
+  @apply w-[24px];
+  @apply flex;
+}
