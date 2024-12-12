@@ -42,11 +42,18 @@ pnpm install
 
 Run the development server
 
+
+Create and adjust .env file.
+
+```shell
+See [.env.example](.env.example).
+```
+
 ```shell
 pnpm run dev
 ```
 
-After running the development server, the app will be accessible at <http://localhost:5137>. The admin dashboard is accessible at /admin for modifying choices and weights.
+After running the development server, the app will be accessible at <http://localhost:5173>. The admin dashboard is accessible at /admin for modifying choices and weights.
 
 ### Build
 
